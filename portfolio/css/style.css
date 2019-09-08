@@ -1,0 +1,90 @@
+
+body{
+	background: #ccc;
+}
+
+#header a:hover{
+	color:#fff;
+}
+
+#bg-img{
+	background:url('../images/bg1.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 350px;
+}
+
+#about{
+	margin-top:-200px;
+}
+.heading-title {
+	font-family: "Old Standard TT", Sans-serif;
+	font-size: 31px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1em;
+	letter-spacing: 3px;
+}
+
+
+
+/*About section*/
+
+#about .fa{
+	color:#fff;
+}
+
+#about span{
+	padding:10px 20px;
+}
+
+#about hr{
+	border-width:2px;
+	margin-top:9px;
+}
+
+#skills span{
+	padding:10px 20px;
+}
+
+#skills hr{
+	border-width:2px;
+	margin-top:9px;
+} 
+
+#experience span{
+	padding:10px 20px;
+}
+
+#experience hr{
+	border-width:2px;
+	margin-top:9px;
+}
+
+#exprience .card{
+	border-top: 03px solid red;  
+}
+
+#contact span{
+	padding:10px 20px;
+}
+
+#contact hr{
+	border-width:2px;
+	margin-top:9px;
+}
+
+#contact .card{
+	border-top: 03px solid red;  
+}
+
+.progress {
+    background-color: #e4c465;
+    animation: progressBar 3s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 95%; }
+}
